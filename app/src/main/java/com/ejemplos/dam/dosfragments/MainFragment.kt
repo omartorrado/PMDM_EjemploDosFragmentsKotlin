@@ -19,6 +19,7 @@ class MainFragment : Fragment() {
         super.onCreate(savedInstanceState)
     }
 
+
     /**
      * Cargamos el layout del fragment
      */
@@ -43,4 +44,6 @@ class MainFragment : Fragment() {
             main_textview.text = main_editText.text
         }
     }
+
+
 }
